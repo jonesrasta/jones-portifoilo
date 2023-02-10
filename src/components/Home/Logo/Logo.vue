@@ -47,7 +47,7 @@ import styles from "./logo.module.scss";
         class="box-button shadow-md hover:transition hover:duration-300 hover:ease-in-out"
       >
         <p class="text-box font-bold text-emerald-400 h-8 flex pl-4">
-          Front - End
+          Front-End
         </p>
         <p class="flex font-normal pl-4 text-white">
           I design and code beatifully simple
@@ -61,7 +61,7 @@ import styles from "./logo.module.scss";
       </button>
       <button class="box-button justify-center mt-2 shadow-md">
         <p class="text-box font-bold text-emerald-400 h-8 flex pl-4">
-          Back - End
+          Back-End
         </p>
         <p class="flex font-normal pl-4 text-white">
           I design and code beatifully simple
