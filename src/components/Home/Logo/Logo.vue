@@ -5,7 +5,7 @@ import styles from "./logo.module.scss";
 <template>
    <div class="container bg-zinc-800">
   <div class="box bg-emerald-400 m-12">
-    <h1>Front-End Developer</h1>
+    <h1 class="text-center text-lg font-ubuntu font-bold">Front-End Developer</h1>
   </div>
  
     <div>
@@ -39,7 +39,7 @@ import styles from "./logo.module.scss";
         </p>
       </div>
       <div class="flex flex-col justify-center">
-        <img src="src/assets/img/jones.png" class="lg:mt-16" alt="" width="286" height="328" />
+        <img src="src/assets/img/jones.png" class="mt-10 w-full h-full" alt="" width="286" height="328" />
       </div>
     </div>
     <div class= "grid justify-center pt-6 bg-zinc-800 w-full">
@@ -72,14 +72,6 @@ import styles from "./logo.module.scss";
 </template>
 
 <style scoped>
-h1 {
-  font-family: ubuntu;
-  text-align: center;
-  font-size: 18px;
-  font-style: bold;
-  font-weight: 600;
-}
-
 .box {
   margin-left: 17px;
   margin-top: 100px;
@@ -91,11 +83,6 @@ h1 {
   justify-content: center;
 }
 
-img {
-  margin-top: 40px;
-  width: 100%;
-  height: 100%;
-}
 .box-button {
   justify-items: center;
   width: 350px;
