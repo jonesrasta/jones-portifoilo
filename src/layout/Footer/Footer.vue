@@ -1,11 +1,12 @@
 <template>
-  <footer class="text-center bg-slate-800 text-white" style="background-color: rgb(39 39 42);">
+  <footer class="text-center bg-zinc-900 text-white">
     <div class="container px-6 pt-6">
       <div class="flex justify-center mb-6">
         <a
-          href="#!"
+          href="https://mail.google.com/"
+          target="blank"
           type="button"
-          class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+          class="rounded-full border-2 hover:border-[color:#6FF1A6] text-white leading-normal uppercase hover:[color:#6FF1A6] hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
         >
           <svg
             aria-hidden="true"
@@ -23,11 +24,11 @@
             ></path>
           </svg>
         </a>
-
         <a
-          href="#!"
+          href="https://www.linkedin.com/in/joneslima"
+          target="blank"
           type="button"
-          class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+          class="rounded-full border-2 hover:border-[color:#6FF1A6] text-white leading-normal uppercase hover:[color:#6FF1A6] hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
         >
           <svg
             aria-hidden="true"
@@ -47,9 +48,10 @@
         </a>
 
         <a
-          href="#!"
+          href="https://github.com/jonesrasta"
+          target="blank"
           type="button"
-          class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+          class="rounded-full border-2 hover:border-[color:#6FF1A6] text-white leading-normal uppercase hover:[color:#6FF1A6] hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
         >
           <svg
             aria-hidden="true"
@@ -70,7 +72,7 @@
       </div>
     </div>
 
-    <div class="text-center p-4" style="background-color: rgb(39 39 42)">
+    <div class="bg-zinc-900 text-center p-4 ">
       © 2023 Copyright Jones Lima
     </div>
 
