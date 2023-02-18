@@ -4,7 +4,7 @@ import styles from "./logo.module.scss";
 
 <template>
   <div class="lg:columns-2 mx-auto overflow-hidden max-w-4xl">
-    <div class="box bg-[color:#6FF1A6] m-12">
+    <div class="box bg-[color:#6FF1A6]">
       <h1 class="text-center text-lg font-ubuntu font-bold">
         Front-End Developer
       </h1>
@@ -26,20 +26,7 @@ import styles from "./logo.module.scss";
             >WHATSAPP!</a
           >
         </div>
-    <div class="md:flex py-6"> 
-        <img
-          class="h-auto w-full object-cover md:h-full md:py-8"
-          src="/src/assets/img/jones.png"
-          alt="Img Jones"
-        >
-    </div>
-
-      <ul class="list-none pt-6">
-        <li>
-
-        </li>
-      </ul>
-      <div :class="styles.experiences" class="flex justify-center mb-2">
+        <div :class="styles.experiences" class="flex justify-center md:pr-32 md:mt-4">
         <p :class="styles.years">02</p>
         <p :class="styles.experience" class="pt-4 pl-2">
           ANOS <br />EXPERIÊNCIA
@@ -50,6 +37,13 @@ import styles from "./logo.module.scss";
           COMPLETOS
         </p>
       </div>
+    <div class="md:flex py-6"> 
+        <img
+          class="h-auto w-full object-cover md:h-full md:py-8 py-6"
+          src="/src/assets/img/jones.png"
+          alt="Img Jones"
+        >
+    </div>
     </div>
   </div>
 </template>
