@@ -13,7 +13,7 @@ export default {
 
 <template>
   <div
-    class="md:flex justify-around items-center text-gray-100 py-6 hover:text-gray-100 focus:text-gray-700 shadow-lg"
+    class="flex justify-between items-center text-gray-100 py-6 hover:text-gray-100 focus:text-gray-700 shadow-lg"
   >
 
     <button
@@ -41,7 +41,7 @@ export default {
         ></path>
       </svg>
     </button>
-    <div class="mb-4 mx-6 md:w-48">
+    <div class="mb-4 mx-28 ">
         <img
         src="/src/assets/logo.svg"
         alt="Avatar"
