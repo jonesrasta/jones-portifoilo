@@ -3,7 +3,7 @@ import styles from "./logo.module.scss";
 </script>
 
 <template>
-  <div class="lg:columns-2 mx-auto overflow-hidden max-w-4xl">
+  <div class="md:columns-2 mx-auto overflow-hidden max-w-4xl">
     <div class="box bg-[color:#6FF1A6]">
       <h1 class="text-center text-lg font-ubuntu font-bold">
         Front-End Developer
@@ -26,9 +26,9 @@ import styles from "./logo.module.scss";
             >WHATSAPP!</a
           >
         </div>
-        <div :class="styles.experiences" class="flex justify-center md:pr-32 md:mt-4">
+        <div :class="styles.experiences" class="flex justify-center md:pr-32 md:mt-0">
         <p :class="styles.years">02</p>
-        <p :class="styles.experience" class="pt-4 pl-2">
+        <p :class="styles.experience" class="pt-4 pl-0">
           ANOS <br />EXPERIÊNCIA
         </p>
         <p :class="styles.years" class="pr-4">15</p>
@@ -37,9 +37,9 @@ import styles from "./logo.module.scss";
           COMPLETOS
         </p>
       </div>
-    <div class="md:flex py-6"> 
+    <div class="md:flex py-4"> 
         <img
-          class="h-auto w-full object-cover md:h-full md:py-8 py-6"
+          class="h-auto w-full object-cover md:h-full md:py-2 py-6"
           src="/src/assets/img/jones.png"
           alt="Img Jones"
         >

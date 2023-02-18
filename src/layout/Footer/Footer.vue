@@ -1,6 +1,6 @@
 <template>
   <footer class="text-center bg-zinc-900 text-white">
-    <div class="container px-6 pt-6">
+    <div class="px-6 pt-6">
       <div class="justify-center mb-6">
         <a
           href="https://mail.google.com/"
