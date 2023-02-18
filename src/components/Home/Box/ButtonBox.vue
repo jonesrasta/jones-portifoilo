@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="grid justify-center pt-6 bg-[color:#25262A]">
+  <div class="grid justify-center pt-6 bg-[color:#25262A] top-16">
     <button
       class="box-button shadow-md hover:transition hover:duration-300 hover:ease-in-out"
     >
