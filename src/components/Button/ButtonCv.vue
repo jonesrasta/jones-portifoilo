@@ -3,7 +3,7 @@
 
 <template>
 
-  <div Class="container bg-[color:#25262A] w-full py-2.5 items-center">
+  <div Class="flex bg-[color:#25262A] py-2.5 align-center justify-center">
   <button
     class="Button bg-[color:#6FF1A6] rounded"
   >
@@ -13,11 +13,7 @@
 </template>
 
 <style scoped>
-.container {
-display: flex;
-justify-content: center;
-align-items: center
-}
+
 .Button {
 color: rgb(37, 37, 37);
 font-family: ubuntu mono;
