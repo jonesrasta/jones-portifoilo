@@ -118,12 +118,12 @@ export default {
     </div>
   </div>
   <div
-    class="nav-mobile hidden absolute py-8 justify-between items-center text-gray-100 hover:text-gray-100 focus:text-gray-700 shadow-lg"
+    class="nav-mobile md:hidden absolute py-8 justify-between items-center text-gray-100 hover:text-gray-100 focus:text-gray-700 shadow-lg"
   >
     <div class="text-center">
       <img
         src="/src/assets/img/avatar.png"
-        class="absolute h000idden w-14 mb-4 mx-6"
+        class="absolute md:hidden w-14 mb-4 mx-6"
         alt="Avatar"
       />
       <h5 class="text-xl font-medium leading-tight">Jones Lima</h5>
