@@ -13,10 +13,11 @@ export default {
 
 <template>
   <div
-    class="header md:flex justify-between items-center text-gray-100 py-6 hover:text-gray-100 focus:text-gray-700 shadow-lg"
+    class="flex justify-between items-center text-gray-100 py-6 hover:text-gray-100 focus:text-gray-700 shadow-lg"
   >
+
     <button
-      class="navbar-toggler absolute py-2 pl-6"
+      class="navbar-toggler md:hidden absolute py-2 pl-6"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent"
@@ -40,7 +41,14 @@ export default {
         ></path>
       </svg>
     </button>
-    <div class="flex justify-end px-2.5">
+    <div class="mb-4 mx-28 ">
+        <img
+        src="/src/assets/logo.svg"
+        alt="Avatar"
+      >
+      </div>
+    <div class="flex justify-end px-4">
+
       <a
         href="https://www.linkedin.com/in/joneslima"
         target="blank"
@@ -110,7 +118,7 @@ export default {
     </div>
   </div>
   <div
-    class="nav-mobile absolute py-8 md:flex justify-between items-center text-gray-100 hover:text-gray-100 focus:text-gray-700 shadow-lg"
+    class="nav-mobile md:hidden absolute py-8 justify-between items-center text-gray-100 hover:text-gray-100 focus:text-gray-700 shadow-lg"
   >
     <div class="text-center">
       <img
@@ -129,7 +137,7 @@ export default {
       </div>
       <div class="nav-list">
         <ul
-          class="md:flex md:items-center md:px-0 px-4 md:pb-0 pb-8 md:static absolute md:w-auto w-full duration-700 ease-in"
+          class="md:flex md:items-center md:px-26 px-4 md:pb-0 pb-8 absolute md:w-auto w-full duration-700 ease-in"
           :class="[open ? 'rigth-0' : 'rigth-[-100%]']"
         >
           <li class="md:mx-4 md:my-0 my-4 mt-4" v-for="link in Links" v-bind:key="link.link">
