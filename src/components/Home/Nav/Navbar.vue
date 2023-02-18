@@ -118,7 +118,7 @@ export default {
     </div>
   </div>
   <div
-    class="nav-mobile md:hidden absolute py-8 justify-between items-center text-gray-100 hover:text-gray-100 focus:text-gray-700 shadow-lg"
+    class="nav-mobile hidden absolute py-8 justify-between items-center text-gray-100 hover:text-gray-100 focus:text-gray-700 shadow-lg"
   >
     <div class="text-center">
       <img
