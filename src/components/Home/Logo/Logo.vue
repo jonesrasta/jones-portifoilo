@@ -4,7 +4,9 @@ import styles from "./logo.module.scss";
 
 <template>
   <div class="md:columns-2 mx-auto overflow-hidden max-w-4xl">
-    <div class="box bg-[color:#6FF1A6]">
+    <div
+      class="box box-decoration-slice bg-[color:#6FF1A6] flex flex-col-reverse justify-center ml-4 mt-24 rounded w-48 h-11"
+    >
       <h1 class="text-center text-lg font-ubuntu font-bold">
         Front-End Developer
       </h1>
@@ -15,18 +17,21 @@ import styles from "./logo.module.scss";
         Show me the code.
       </h2>
       <p :class="styles.subtitle">
-      Desenvolvedor de Software apaixonado por soluçãode problemas e pela
-      criação de soluções eficientes para sua empresa.
-    </p>
-    <div class="py-8">
-    <a
-            href="https://wa.me/+5511955509876"
-            target="blank"
-            class="font-medium underline underline-offset-4 text-[color:#6FF1A6] hover:text-emerald-300 pl-5"
-            >WHATSAPP!</a
-          >
-        </div>
-        <div :class="styles.experiences" class="flex justify-center md:pr-32 md:mt-0">
+        Desenvolvedor de Software apaixonado por soluçãode problemas e pela
+        criação de soluções eficientes para sua empresa.
+      </p>
+      <div class="py-8">
+        <a
+          href="https://wa.me/+5511955509876"
+          target="blank"
+          class="font-medium underline underline-offset-4 text-[color:#6FF1A6] hover:text-emerald-300 pl-5"
+          >WHATSAPP!</a
+        >
+      </div>
+      <div
+        :class="styles.experiences"
+        class="flex justify-center md:pr-32 md:mt-0"
+      >
         <p :class="styles.years">02</p>
         <p :class="styles.experience" class="pt-4 pl-0">
           ANOS <br />EXPERIÊNCIA
@@ -37,26 +42,15 @@ import styles from "./logo.module.scss";
           COMPLETOS
         </p>
       </div>
-    <div class="md:flex py-4"> 
+      <div class="md:flex py-4">
         <img
-          class="h-auto w-full object-cover md:h-full md:py-2 py-6"
+          class="w-full md:h-full md:py-2 py-6"
           src="/src/assets/img/jones.png"
           alt="Img Jones"
-        >
-    </div>
+        />
+      </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-.box {
-  margin-left: 17px;
-  margin-top: 100px;
-  display: flex;
-  border-radius: 3px;
-  max-width: 191px;
-  height: 44px;
-  flex-direction: column-reverse;
-  justify-content: center;
-}
-</style>
+<style scoped></style>
