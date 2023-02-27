@@ -3,12 +3,12 @@ import styles from "./logo.module.scss";
 </script>
 
 <template>
-  <div class="md:columns-2 mx-auto overflow-hidden max-w-4xl">
+  <div class="md:columns-2 mx-auto overflow-hidden max-w-4xl mt-24">
     <div
-      class="box box-decoration-slice bg-[color:#6FF1A6] flex flex-col-reverse justify-center ml-4 mt-24 rounded w-48 h-11"
+      class="flex flex-col-reverse justify-center box-decoration-slice bg-[color:#6FF1A6] ml-4 rounded w-48 h-11"
     >
       <h1 class="text-center text-lg font-ubuntu font-bold">
-        Front-End Developer
+        Software Developer
       </h1>
     </div>
     <div>
@@ -33,7 +33,7 @@ import styles from "./logo.module.scss";
         class="flex justify-center md:pr-32 md:mt-0"
       >
         <p :class="styles.years">02</p>
-        <p :class="styles.experience" class="pt-4 pl-0">
+        <p :class="styles.experience" class="pt-4 pl-4">
           ANOS <br />EXPERIÊNCIA
         </p>
         <p :class="styles.years" class="pr-4">15</p>
@@ -42,9 +42,9 @@ import styles from "./logo.module.scss";
           COMPLETOS
         </p>
       </div>
-      <div class="md:flex py-4">
+      <div class="md:flex mt-16">
         <img
-          class="w-full md:h-full md:py-2 py-6"
+          class="w-full md:h-full md:py-0"
           src="/src/assets/img/jones.png"
           alt="Img Jones"
         />
