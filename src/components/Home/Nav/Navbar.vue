@@ -132,7 +132,7 @@ export default {
       <div class="border-b border-gray-300 mt-6 w-64 ml-4"></div>
       <div class="flex items-center">
         <span class="text-[color:#6FF1A6] mr-1">
-          <img src="/src/assets/logo.svg" class="hidden" />
+          <img class="visibility: hidden" src="/src/assets/logo.svg" >
         </span>
       </div>
       <div class="nav-list">
